@@ -1,0 +1,3 @@
+shaderc -f vs_cube.sc -o ..\shaders\dx11\vs_cube.bin --depends -i ..\..\src --varyingdef varying.def.sc --platform windows -p vs_5_0 --type vertex -o 3
+shaderc -f fs_cube.sc -o ..\shaders\dx11\fs_cube.bin --depends -i ..\..\src --varyingdef varying.def.sc --platform windows -p ps_5_0 --type fragment -o 3
+shaderc -f vs_height_map.sc -o ..\shaders\dx11\vs_height_map.bin --depends -i ..\..\src --varyingdef varying.def.sc --platform windows -p vs_5_0 --type vertex -o 3
